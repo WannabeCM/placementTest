@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+  </head>
+  <body class="body">
+    <h1 class="titleLogo"><img src="./img/weniv-logo.svg" alt="위니브" /></h1>
+    <article class="timer">
+      <div class="titleTimer">TIMER</div>
+      <hr />
+      <div class="timerWrapper">
+        <div class="timerBox hour">00</div>
+        <div class="timerBox min">00</div>
+        <div id="test" class="timerBox">00</div>
+      </div>
+      <button>start</button>
+      <button>pause</button>
+      <button>reset</button>
+    </article>
+    <img src="./img/ⓒ WENIV Corp..svg" alt="" />
+
+    <script>
+      var timer;
+      const secTimer = document.getElementsById("test");
+      secTimer.innerHTML = "a"(function () {
+        var sec = 0;
+        timer = setInterval(() => {
+          secTimer.innerHTML = "00:" + sec;
+          sec++;
+        }, 1000);
+      })();
+    </script>
+  </body>
+</html>
