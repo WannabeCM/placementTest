@@ -14,26 +14,15 @@
       <div class="titleTimer">TIMER</div>
       <hr />
       <div class="timerWrapper">
-        <div class="timerBox hour">00</div>
-        <div class="timerBox min">00</div>
-        <div id="test" class="timerBox">00</div>
+        <div class="timerBox hour"><span>00</span></div>
+        <div class="timerBox min"><span id="tens">00</span></div>
+        <div class="timerBox"><span id="seconds">00</span></div>
       </div>
-      <button>start</button>
-      <button>pause</button>
-      <button>reset</button>
+      <button class="button1" id="button-start">start</button>
+      <button class="button2" id="button-reset">reset</button>
+      <button class="button3" id="button-stop">stop</button>
     </article>
     <img src="./img/ⓒ WENIV Corp..svg" alt="" />
-
-    <script>
-      var timer;
-      const secTimer = document.getElementsById("test");
-      secTimer.innerHTML = "a"(function () {
-        var sec = 0;
-        timer = setInterval(() => {
-          secTimer.innerHTML = "00:" + sec;
-          sec++;
-        }, 1000);
-      })();
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>

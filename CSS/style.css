@@ -43,3 +43,45 @@
   color: white;
   padding: 30px;
 }
+
+.button1 {
+  background: #5180ff;
+  height: 48px;
+  width: 112px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: white;
+  border: none;
+}
+
+.button2 {
+  background: #fb7099;
+  height: 48px;
+  width: 112px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: white;
+  border: none;
+}
+
+.button3 {
+  background: #15c2b8;
+  height: 48px;
+  width: 112px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: white;
+  border: none;
+}
